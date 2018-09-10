@@ -1,5 +1,5 @@
 ## Modeling Projects Using other Tools
-These modeling projects are performed using tools other than R or Python. I tried H2O, JMP Pro and Spark MLlib to build various models. They also show good results. Just for interesting attempts.
+These modeling projects are performed using tools other than traditional packages in R or Python. I tried H2O, JMP Pro and Spark MLlib to build various models. They also show good results. Just for interesting attempts.
 
 ### House Prices Prediction
 We conducted data exploration, cleaning and feature engineering on 79 variables describing 1460 residential homes in Ames, Iowa using scikit-learn in python and developed models using H2O automachine learning with Root Mean Squared Logarithmic Error of 0.13 on validation data.
