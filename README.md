@@ -1,8 +1,11 @@
-## Data Mining Projects in other Platforms
-These projects are performed using data mining and modeling techniques in other platform such as H2O and JMP Pro. Just for interesting attempts.
+## Modeling Projects Using other Tools
+These modeling projects are performed using tools other than R or Python. I tried H2O, JMP Pro and Spark MLlib to build various models. They also show good results. Just for interesting attempts.
 
 ### House Prices Prediction
-We	Conducted data exploration, cleaning and feature engineering on 79 variables describing 1460 residential homes in Ames, Iowa using scikit-learn in python and developed models using H2O automachine learning with Root Mean Squared Logarithmic Error of 0.13 on validation data.
+We conducted data exploration, cleaning and feature engineering on 79 variables describing 1460 residential homes in Ames, Iowa using scikit-learn in python and developed models using H2O automachine learning with Root Mean Squared Logarithmic Error of 0.13 on validation data.
 
 ### Churn Analysis
-Conducted data exploration, feature engineering Built and compared logistic, decision tree and neural network models to predict company churn rate using JMP Pro and provided solutions to improve customer retention.
+Conducted data exploration and feature engineering in JMP Pro and tried logistic, decision tree and neural network models to predict company's churn rate and finally selected decision tree model with highest ROC of 0.88. It drew a lot of useful business insights so that we can provide solutions to improve customer retention.
+
+### 2013 NYC Taxi Tipping Prediction
+Conducted feature exploration and developed logistic regression model in Spark MLlib to predict taxi tipping with ROC of 0.98.
